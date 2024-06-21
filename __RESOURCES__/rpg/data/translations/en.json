@@ -1,0 +1,101 @@
+{
+    "loading": "Loading...",
+    "loading.font": "Loading Fonts...",
+    "loading.level": "Loading Level...",
+    "title": "LOST in the Woods?",
+    "menu.play": "> Play",
+    "menu.settings": "> Settings",
+    "menu.quit": "< Quit",
+    "menu.continue": "> Continue",
+    "menu.level": "Level",
+    "menu.restart": "> Restart",
+    "menu.back": "< Back",
+    "menu.level_select": "Select Level:",
+    "credits.end": "The End!",
+    "credits.thx": "Thanks for playing! <3",
+    "credits.game_by": "A game by:",
+    "credits.diam0ndkiller": "> diam0ndkiller",
+    "credits.lostnumb": "> lostnumb",
+    "pause": "Game Paused",
+    "pause.continue": "> Back to Game",
+    "pause.quit": "< Quit to Menu",
+    "game_over": "Game Over!",
+    "level.interact.show_contents": "> Show Contents",
+    "level.interact.destroy": "> Destroy",
+    "level.advance.kill_required": [
+		"There are enemies around.",
+		"I need to get rid of them!",
+		"Only then I can safely explore further."
+	],
+    "level.01.dialog.start": [
+		"[ADVANCE IN DIALOGS WITH SPACE]",
+		"[USE (WASD) TO MOVE]",
+		"[USE KEY (E) WHILE FACING TARGET TO USE PRIMARY ITEM]",
+		"[USE KEY (Q) TO USE CONSUMABLE ITEM]",
+		"Hello?",
+		"Where am I?",
+		"...",
+		"I think I remember a bright room.",
+		"Like a laboratory...",
+		"But how did I get here then?"
+	],
+	"level.01.dialog.axe_needed": [
+		"I think I need an axe for this...",
+		"Where could I get one?"
+	],
+    "level.01.backpack.description": [
+		"It's an old backpack!",
+		"Should I take a look inside?"
+	],
+    "level.01.fireplace.description": [
+		"This fireplace looks like it was used only a few hours ago."
+	],
+    "level.01.gate.description": [
+		"An old wooden gate.",
+		"The path seems to continue behind it."
+	],
+    "level.02.dialog.start": [
+		"It's another pathway.",
+		"I think I'll look around a bit.",
+		"Maybe I can find some information about this place..."
+	],
+    "level.02.tree.description": [
+		"This tree looks not very old.",
+		"It even looks...",
+		"Kind of plastic-y.",
+		"Is it not real?",
+		"It even says 'Made in China'...",
+		"But does that mean...",
+		"This entire place isn't real?",
+		"...",
+		"It seems like it!",
+		"I have to get out of it then!"
+	],
+    "level.02.bush.description": [
+		"A bush."
+	],
+	"level.03.dialog.start": [
+		"That object there.",
+		"It looks kind of like a door.",
+		"A door from another world..."
+	],
+	"level.03.portal_closed.description": [
+		"It's locked."
+	],
+	"level.03.portal_open.description": [
+		"A portal!",
+		"It will take me out of here!",
+		"I hope..."
+	],
+	"level.03.dialog.key_needed": [
+		"I don't have a key..."
+	],
+	"level.03.open_portal": "> Unlock",
+	"level.03.enter_portal": "> Enter Portal",
+    "item.axe": "Axe",
+    "item.apple": "Apple",
+    "item.key": "Key",
+    "item_slot.primary": "Primary Item",
+    "item_slot.secondary": "Secondary Item",
+    "item_slot.consumable": "Consumable Item"
+}

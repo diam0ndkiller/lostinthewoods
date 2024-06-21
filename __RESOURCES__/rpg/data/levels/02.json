@@ -1,0 +1,44 @@
+{
+    "obstacle_hitboxes": [
+        {"type": "nature", "start": [0, 0], "end": [64, 1280]},
+        {"type": "nature", "start": [0, 0], "end": [600, 128]},
+        {"type": "nature", "start": [600, 0], "end": [1400, 100]},
+        {"type": "nature", "start": [1400, 0], "end": [2048, 128]},
+        {"type": "nature", "start": [0, 1216], "end": [2048, 1280]},
+        {"type": "nature", "start": [1984, 0], "end": [2048, 1280]}
+    ],
+    "interactable_objects": [
+		{
+			"type": "object", "pos": [300, 500], "image": "levels/02-bush-small.png",
+			"description": "level.02.bush.description",
+			"actions": []
+		},
+		{
+			"type": "object", "pos": [1500, 400], "image": "levels/02-tree.png",
+			"description": "level.02.tree.description",
+			"actions": []
+		}
+	],
+	"enemies": [
+		{
+			"image": "entities/slime.png",
+			"trigger": "(GLOBALS.player.pos[1] < 500 or GLOBALS.player.pos[0] < 400)",
+			"pursuit": true,
+			"speed": 20,
+			"hp": 30,
+			"move_timeout": 10,
+			"start_pos": [400, 600],
+			"attack": {
+				"type": "jump",
+				"damage": 10,
+				"frames": 5,
+				"timeout": 50
+			}
+		}
+	],
+	"start_dialog": "level.02.dialog.start",
+    "movement_speed": 10,
+    "starting_pos": [800, 1000],
+	"target": "{border}",
+	"next_level": "03"
+}

@@ -1,0 +1,40 @@
+{
+	"pages": [
+		[
+			{
+				"text": "title",
+				"color": COLORS.grey_green,
+				"size": 3
+			},
+			{
+				"text": "credits.end",
+				"color": COLORS.dark_green,
+				"size": 2
+			}
+		],
+		[
+			{
+				"text": "credits.game_by",
+				"color": COLORS.light_grey,
+				"size": 3
+			},
+			{
+				"text": "credits.diam0ndkiller",
+				"color": COLORS.aqua,
+				"size": 2
+			},
+			{
+				"text": "credits.lostnumb",
+				"color": COLORS.light_blue,
+				"size": 2
+			}
+		],
+		[
+			{
+				"text": "credits.thx",
+				"color": COLORS.red,
+				"size": 3
+			}
+		]
+	]
+}

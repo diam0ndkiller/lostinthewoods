@@ -1,0 +1,55 @@
+{
+    "obstacle_hitboxes": [
+        {"type": "nature", "start": [0, 0], "end": [64, 1280]},
+        {"type": "nature", "start": [0, 0], "end": [2048, 128]},
+        {"type": "nature", "start": [0, 1216], "end": [2048, 1280]},
+        {"type": "nature", "start": [1984, 0], "end": [2048, 1280]}
+    ],
+    "interactable_objects": [
+		{
+			"type": "object", "pos": [650, 250], "image": "levels/03-portal-closed.png",
+			"description": "level.03.portal_closed.description",
+			"actions": [
+				{
+					"name": "level.03.open_portal",
+					"type": "transform",
+					"required": {"secondary": "key"},
+					"required_dialog": "level.03.dialog.key_needed",
+					"transform": {
+						"type": "object", "pos": [650, 250], "image": "levels/03-portal-open.png",
+						"description": "level.03.portal_open.description",
+						"actions": [
+							{
+								"name": "level.03.enter_portal",
+								"type": "advance"
+							}
+						]
+					}
+				}
+			]
+		}
+	],
+	"enemies": [
+		{
+			"image": "entities/slimeking.png",
+			"trigger": "True",
+			"pursuit": true,
+			"speed": 20,
+			"hp": 50,
+			"move_timeout": 10,
+			"start_pos": [700, 500],
+			"attack": {
+				"type": "jump",
+				"damage": 25,
+				"frames": 5,
+				"timeout": 50
+			},
+			"drops": [Item("key", 1, "secondary")]
+		}
+	],
+	"start_dialog": "level.03.dialog.start",
+    "movement_speed": 10,
+    "starting_pos": [800, 1000],
+	"target": "{border}",
+	"next_level": "credits"
+}

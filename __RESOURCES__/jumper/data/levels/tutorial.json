@@ -1,0 +1,14 @@
+{
+    "name": "Tutorial",
+	"speed": 4,
+	"starting_height": 3,
+    "background_color": [0, 63, 63],
+    "player_color": [0, 195, 195],
+    "player_size": 30,
+	"blocks": [
+		{"height": 2, "width": 300, "color": [255, 0, 0]},
+		{"height": 1, "width": 200, "color": [255, 100, 0]},
+		{"height": 2, "width": 200, "color": [255, 255, 0]},
+		{"height": 3, "width": 400, "color": [100, 255, 0]}
+	]
+}

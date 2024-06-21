@@ -1,0 +1,25 @@
+{
+    "name": "The Level",
+	"speed": 6,
+	"starting_height": 3,
+    "background_color": [0, 63, 63],
+    "player_color": [0, 195, 195],
+    "player_size": 30,
+	"blocks": [
+		{"height": 2, "width": 200, "color": [127, 0, 0]},
+		{"height": 3, "width": 50, "color": [195, 0, 0]},
+		{"height": 2, "width": 300, "color": [127, 0, 0]},
+		{"height": 3, "width": 200, "color": [127, 63, 0]},
+		{"height": 4, "width": 30, "color": [195, 127, 0]},
+		{"height": 3, "width": 100, "color": [127, 63, 0]},
+		{"height": 2, "width": 200, "color": [127, 0, 0]},
+		{"height": 1, "width": 250, "color": [127, 0, 63]},
+		{"height": 2, "width": 130, "color": [195, 0, 127]},
+		{"height": 3, "width": 20, "color": [255, 0, 195]},
+		{"height": 1, "width": 330, "color": [127, 0, 63]},
+		{"height": 2, "width": 230, "color": [127, 0, 127]},
+		{"height": 3, "width": 130, "color": [63, 0, 127]},
+		{"height": 4, "width": 20, "color": [63, 0, 195]},
+		{"height": 1, "width": 300, "color": [0, 0, 195]},
+	]
+}
